@@ -8,6 +8,7 @@ public class HomeController
 {
     @GetMapping("/")
     public String showHome(){
+        System.out.println("Accessing '/' mapping in HomeController");
         return "index";
     }
 
